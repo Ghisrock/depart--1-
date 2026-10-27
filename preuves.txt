@@ -1,0 +1,21 @@
+J06 — Preuve d’exécution
+
+Commande réellement lancée dans Windows PowerShell :
+node .\depenses.js
+
+Sortie obtenue après avoir terminé le programme :
+Sortie complète :
+Tableau initial (avant tri) : [1500, 2500, 0, 4000, 1000, 2500, 3000]
+Tableau initial (après tri) : [1500, 2500, 0, 4000, 1000, 2500, 3000]
+
+===== RAPPORT DES DÉPENSES =====
+Total                  : 14500 FCFA
+Moyenne par jour       : 2071.43 FCFA
+Dépenses > 2000 FCFA   : [2500, 4000, 2500, 3000]
+Plus grande dépense    : 4000 FCFA
+Copie triée (croissant): [0, 1000, 1500, 2500, 2500, 3000, 4000]
+Moyenne tableau vide   : 0 FCFA
+Maximum tableau vide   : 0 FCFA
+
+Archive à remettre : J06_OBA_GHISLAIN.zip
+Contenu attendu : depenses.js et preuves.txt
